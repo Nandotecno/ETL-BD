@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+{
+
+		inteiro num[2]
+
+		escreva("Insira o primeiro valor: ")
+		leia(num[0])
+
+		escreva("Insira o segundo valor: ")
+		leia(num[1])
+
+		se(num[0] > num[1]){
+			escreva("O maior é, " + num[0])
+		}senao{
+			escreva("O maior é, " + num[1])
+		}		
+	}
+}
